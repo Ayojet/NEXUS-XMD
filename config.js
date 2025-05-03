@@ -11,7 +11,7 @@ PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
 BOT_NAME: process.env.BOT_NAME || "✦ NEXUS ✦ XMD ✦",
 // add bot namw here for menu
-CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
@@ -41,7 +41,7 @@ AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG || "*🎉👀 Seen by NEXUS XMD �
 // set the auto reply massage on status reply    
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
-ANTI_LINK: process.env.ANTI_LINK || "false",
+ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
